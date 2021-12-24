@@ -1,0 +1,197 @@
+.bg{
+    position: absolute;
+    background-image: url("image/world-of-warcraft-battle-for-azeroth-10k-wallpaper-5760x1620_79.jpg");
+    height: 500px;
+    width: 100%;
+    z-index:-1;
+    opacity: 0.6;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #333;
+    color: aliceblue;
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 1.5;
+
+}
+h2{
+    margin: 0;
+}
+p{
+    margin: 0;
+    padding: 1em;
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#header{
+    text-align: center;
+    min-height: 470px;
+}
+#header h1{
+    padding-top: 50px;
+    color:antiquewhite;
+    font-family: cursive;
+}
+#header p{
+    color: aqua;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.btn{
+    background-color: #333;
+    color: white;
+    border: 1px solid #666;
+    padding: 1.2em;
+    margin-top: 10px;
+}
+.btn:hover{
+    background: #faf5f5;
+    color: #333;
+    cursor: pointer;
+}
+#section-a{
+    
+    background: white;
+    color: #333;
+    padding: 2em;
+}
+#section-b{
+    display: grid;
+    position: 2em;
+    margin: 1em;
+    
+    
+}
+#section-b ul{
+    list-style: none;
+    margin: 0%;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+#section-b li{
+    background: white;
+    color: #333;
+    width: 33%;
+    margin-bottom: 1em;
+    
+}
+#section-c{
+    background-color: white;
+    color: #333;
+    padding: 0 3em 3em 3em;
+}
+#section-d{
+    padding: 20px 10px 20px;
+}
+#footer{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}   
+#social{
+    text-align: right;
+}
+.content-title{
+    margin-bottom: 20px;
+    font-family: cursive;
+}
+.fa {
+    padding: 16px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius:50%;
+    margin-right: 10px;
+    margin-top: 12px;
+    
+  }
+
+  .fa:hover {
+    opacity: 0.8;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+
+  .flex-container  div {
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    font-size: 10px;
+  }
+  .mimage{
+      height: 235px;
+      width: 235px;
+  }
+  .english{
+      padding-left:12px;
+      text-align: left;
+  }
+
+  
+@media (max-width: 700px){
+    
+    #section-b ul{
+        list-style: none;
+        margin: 0%;
+        padding: 0;
+        display: block;
+        justify-content: space-around;
+    }
+    
+    #section-b li{
+        background: white;
+        color: #333;
+        width: 100%;
+        margin-bottom: 1em;
+    }
+    
+    #section-d{
+        display: block;
+        justify-content: space-around;
+    }
+    #footer{
+        background: black;
+        color: white;
+        display:block;
+        justify-content: space-around;
+        padding: 30px;
+    }    
+    #footer div:last-child{
+        margin-top: 1em;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+      }
+}
